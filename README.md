@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# Med Share Romania
 
-## Project info
+A web application for sharing and organizing medical documents in a Romanian context.
 
-**URL**: https://lovable.dev/projects/465ffb38-9384-4c02-ab7b-855965f96b96
+## Overview
 
-## How can I edit this code?
+Med Share Romania is a TypeScript/React application built with Vite, Tailwind CSS and shadcn/ui. The project explores a cleaner workflow for uploading, organizing and working with medical documents.
 
-There are several ways of editing your application.
+## Stack
 
-**Use Lovable**
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui / Radix UI
+- React Router
+- React Hook Form + Zod
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/465ffb38-9384-4c02-ab7b-855965f96b96) and start prompting.
+## Development
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Create a production build with:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+Run linting with:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run lint
+```
 
-## What technologies are used for this project?
+## Repository
 
-This project is built with:
+The source of truth is this Git repository. Development history and implementation details live in the source tree under `src/`.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Status
 
-## How can I deploy this project?
+This is an evolving project, not a finished medical platform. It is presented publicly as a software project and prototype.
 
-Simply open [Lovable](https://lovable.dev/projects/465ffb38-9384-4c02-ab7b-855965f96b96) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
+No open-source license has been declared yet. Until one is added, the code should not be assumed to be licensed for reuse.
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built by Paul.
